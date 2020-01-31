@@ -1,0 +1,328 @@
+/* =================================================================================
+    Theme Name       : Tablet Waiter
+    Author           : Beatnik Technology LTD
+====================================================================================*/
+
+
+/*===================================================================================
+     General CSS
+=====================================================================================*/
+
+html,
+body {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    vertical-align: baseline;
+    line-height: 28px;
+    overflow-x: hidden;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #3a3a3a;
+}
+
+h3 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #008CBA;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    outline: none !important;
+}
+
+a:active,
+a:hover {
+    text-decoration: none;
+    outline: 0 none;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.form-control:focus {
+    color: #3a3a3a;
+    background-color: #fff;
+    border-color: #00408A;
+    outline: 0;
+    box-shadow: none;
+}
+
+textarea:focus {
+    border: 1px solid transparent !important;
+    box-shadow: none;
+    border-radius: 0 !important;
+    outline-color: transparent !important;
+}
+
+blockquote {
+    padding: 25px 35px;
+    margin-left: 30px;
+    background: #f5f5f5;
+    margin: 30px 0 30px 30px;
+    -webkit-box-shadow: -5px 0 #232323;
+    -ms-box-shadow: -5px 0 #232323;
+    box-shadow: -5px 0 #232323;
+}
+
+blockquote p:last-child {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+ ::-moz-selection {
+    background: #00408A;
+    text-shadow: none;
+    color: #ffffff;
+}
+
+ ::selection {
+    background: #00408A;
+    text-shadow: none;
+    color: #ffffff;
+}
+
+@-webkit-keyframes autofill {
+    to {
+        color: inherit;
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+.white-color {
+    color: #fff;
+}
+
+
+/*======================================================
+    Global Class
+=======================================================*/
+
+.section-padding {
+    padding: 90px 0;
+}
+
+.section-bg {
+    background: #f7f7f7;
+}
+
+.short-section-padding {
+    padding: 40px 0;
+}
+
+.section-padding-bottom {
+    padding-bottom: 80px;
+}
+
+.section-padding-top {
+    padding-top: 80px;
+}
+
+.section-title-padding {
+    padding-bottom: 40px;
+}
+
+.feature-title {
+    color: #555;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.theme-btn {
+    color: #fff;
+    background: #BC2423;
+    display: inline-block;
+    padding: 7px 25px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all .3s linear;
+}
+
+.theme-btn-transparent {
+    color: #3a3a3a;
+    display: inline-block;
+    padding: 7px 25px;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all .3s linear;
+    border: 1px solid #BC2423;
+}
+
+.theme-btn-transparent:hover {
+    background-color: #BC2423;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+button.theme-btn {
+    border: none;
+    border-radius: 4px;
+}
+
+button.theme-btn:hover {
+    color: #fff;
+    box-shadow: 1px 0px 5px 3px rgba(0, 0, 0, 0.19);
+}
+
+.theme-btn:hover {
+    color: #fff;
+    box-shadow: 1px 0px 5px 3px rgba(0, 0, 0, 0.19);
+}
+
+.black-bg {
+    background-color: #06060a;
+}
+
+.dark-bg-color {
+    background-color: #040303f5;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mtb-20 {
+    margin: 20px 0;
+}
+
+.mtb-10 {
+    margin: 10px 0;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.relative {
+    position: relative;
+}
+
+
+li.nav-item a {
+    padding: 10px;
+    color: #fff;
+}
+.content{
+    min-height: 820px;
+}
